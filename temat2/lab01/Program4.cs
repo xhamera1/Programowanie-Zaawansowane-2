@@ -1,13 +1,13 @@
 namespace Lab2.My.Namespace{
     class Program4{
         static void Main(string[] args){
-            int lineCount = File.ReadAllLines("plik3.txt").Length;
+            int lineCount = File.ReadAllLines("plik2.txt").Length;
             int countChars = 0;
             double biggestNumber = double.MinValue;
             double smallestNumber = double.MaxValue;
             double sum = 0;
             double average = 0;
-            StreamReader sr = new StreamReader("plik3.txt");
+            StreamReader sr = new StreamReader("plik2.txt");
             while (!sr.EndOfStream) {
                 string line = sr.ReadLine();
                 countChars += line.Length;
