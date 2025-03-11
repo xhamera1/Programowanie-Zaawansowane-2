@@ -1,0 +1,14 @@
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.AssemblyInfoInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.AssemblyInfo.cs
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.csproj.CoreCompileInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\bin\Debug\net7.0\lab02.exe
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\bin\Debug\net7.0\lab02.deps.json
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\bin\Debug\net7.0\lab02.runtimeconfig.json
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\bin\Debug\net7.0\lab02.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\bin\Debug\net7.0\lab02.pdb
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\refint\lab02.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.pdb
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\lab02.genruntimeconfig.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat3\lab02\obj\Debug\net7.0\ref\lab02.dll
