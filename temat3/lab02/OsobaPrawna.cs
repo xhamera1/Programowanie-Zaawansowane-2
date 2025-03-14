@@ -1,13 +1,13 @@
-﻿#nullable disable
+﻿// #nullable disable
 namespace Lab02;
 
 
 public class OsobaPrawna : PosiadaczRachunku
 {
-    private string nazwa;
-    private string siedziba;
+    private string? nazwa;
+    private string? siedziba;
 
-    public OsobaPrawna(string nazwa, string siedziba)
+    public OsobaPrawna(string? nazwa, string? siedziba)
     {
         this.nazwa = nazwa;
         this.siedziba = siedziba;
@@ -18,12 +18,12 @@ public class OsobaPrawna : PosiadaczRachunku
         return $"Osoba prawna: {nazwa} {siedziba}";
     }
 
-    public string Nazwa
+    public string? Nazwa
     {
         get => nazwa;
     }
 
-    public string Siedziba
+    public string? Siedziba
     {
         get => siedziba;
     }

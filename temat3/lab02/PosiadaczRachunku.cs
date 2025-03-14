@@ -1,5 +1,4 @@
-﻿#nullable disable
-namespace Lab02;
+﻿namespace Lab02;
 
 public abstract class PosiadaczRachunku
 {

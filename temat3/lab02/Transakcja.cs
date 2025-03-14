@@ -1,27 +1,27 @@
-﻿#nullable disable
+﻿// #nullable disable
 namespace Lab02;
 
 
 public class Transakcja
 {
-    private RachunekBankowy rachunekZrodlowy;
-    private RachunekBankowy rachunekDocelowy;
+    private RachunekBankowy? rachunekZrodlowy;
+    private RachunekBankowy? rachunekDocelowy;
     private decimal kwota;
-    private string opis;
+    private string? opis;
 
-    public Transakcja(RachunekBankowy rachunekZrodlowy, RachunekBankowy rachunekDocelowy, decimal kwota, string opis)
+    public Transakcja(RachunekBankowy? rachunekZrodlowy, RachunekBankowy? rachunekDocelowy, decimal kwota, string? opis)
     {
         if (rachunekZrodlowy == null && rachunekDocelowy == null)
         {
             throw new Exception("Nie podano rachunku zrodlowego lub docelowego");
         }
-        this.rachunekZrodlowy = rachunekZrodlowy;
-        this.rachunekDocelowy = rachunekDocelowy;
-        this.kwota = kwota;
-        this.opis = opis;
+        RachunekZrodlowy = rachunekZrodlowy;
+        RachunekDocelowy = rachunekDocelowy;
+        Kwota = kwota;
+        Opis = opis;
     }
 
-    public RachunekBankowy RachunekZrodlowy
+    public RachunekBankowy? RachunekZrodlowy
     {
         get => rachunekZrodlowy;
         set
@@ -34,7 +34,7 @@ public class Transakcja
         }
     }
 
-    public RachunekBankowy RachunekDocelowy
+    public RachunekBankowy? RachunekDocelowy
     {
         get => rachunekDocelowy;
         set
@@ -54,7 +54,7 @@ public class Transakcja
         set => kwota = value;
     }
 
-    public string Opis
+    public string? Opis
     {
         get => opis;
         set => opis = value;   

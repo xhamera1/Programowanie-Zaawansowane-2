@@ -17,10 +17,10 @@ public class RachunekBankowy
         {
             throw new Exception("Brak posiadaczy rachunku");
         }
-        this.numer = numer;
-        this.stanRachunku = stanRachunku;
-        this.czyDozwolonyDebet = czyDozwolonyDebet;
-        this.posiadaczeRachunku = new List<PosiadaczRachunku>(posiadaczeRachunku);
+        Numer = numer;
+        StanRachunku = stanRachunku;
+        CzyDozwolonyDebet = czyDozwolonyDebet;
+        PosiadaczeRachunku = new List<PosiadaczRachunku>(posiadaczeRachunku);
     }
 
     public static void DokonajTransakcji(RachunekBankowy rachunekZrodlowy, RachunekBankowy rachunekDocelowy,
@@ -45,7 +45,7 @@ public class RachunekBankowy
         // wpłata gotówki
         if (rachunekZrodlowy == null)
         {
-            rachunekDocelowy.StanRachunku += kwota;
+            rachunekDocelowy!.StanRachunku += kwota;
             nowa_transakcja = new Transakcja(rachunekZrodlowy, rachunekDocelowy, kwota, opis);
             rachunekDocelowy._Transakcje.Add(nowa_transakcja);
             return;
@@ -75,7 +75,7 @@ public class RachunekBankowy
         {
             throw new Exception("Posiadacz juz jest w w liscie posiadaczy rachunku");
         }
-        rachunekBankowy.posiadaczeRachunku.Add(posiadaczRachunku);
+        rachunekBankowy!.posiadaczeRachunku.Add(posiadaczRachunku);
         return rachunekBankowy;
     }
 

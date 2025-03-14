@@ -1,15 +1,15 @@
-﻿#nullable disable
+﻿// #nullable disable
 namespace Lab02;
 
 public class OsobaFizyczna : PosiadaczRachunku
 {
-    private string imie;
-    private string nazwisko;
-    private string drugieImie;
-    private string PESEL;
-    private string numerPaszportu;
+    private string? imie;
+    private string? nazwisko;
+    private string? drugieImie;
+    private string? PESEL;
+    private string? numerPaszportu;
 
-    public OsobaFizyczna(string imie, string nazwisko, string drugieImie, string PESEL, string numerPaszportu)
+    public OsobaFizyczna(string? imie, string? nazwisko, string? drugieImie, string? PESEL, string? numerPaszportu)
     {
         if (string.IsNullOrEmpty(PESEL) && string.IsNullOrEmpty(numerPaszportu))
         {
@@ -24,11 +24,11 @@ public class OsobaFizyczna : PosiadaczRachunku
             }
         }
 
-        this.imie = imie;
-        this.nazwisko = nazwisko;
-        this.drugieImie = drugieImie;
-        this.PESEL = PESEL;
-        this.numerPaszportu = numerPaszportu;
+        Imie = imie;
+        Nazwisko = nazwisko;
+        DrugieImie = drugieImie;
+        Pesel = PESEL;
+        NumerPaszportu = numerPaszportu;
     }
 
     public override string ToString()
@@ -37,25 +37,25 @@ public class OsobaFizyczna : PosiadaczRachunku
     }
     
     
-    public string Imie
+    public string? Imie
     {
         get => imie;
         set => imie = value;
     }
     
-    public string Nazwisko
+    public string? Nazwisko
     {
         get => nazwisko;
         set => nazwisko = value;
     }
 
-    public string DrugieImie
+    public string? DrugieImie
     {
         get => drugieImie;
         set => drugieImie = value;
     }
 
-    public string Pesel
+    public string? Pesel
     {
         get => PESEL;
         set
@@ -82,7 +82,7 @@ public class OsobaFizyczna : PosiadaczRachunku
         }
     }
 
-    public string NumerPaszportu
+    public string? NumerPaszportu
     {
         get => numerPaszportu;
         set
