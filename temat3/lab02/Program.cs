@@ -25,7 +25,7 @@ namespace Lab02
             OsobaFizyczna osoba3 = new OsobaFizyczna("Michal", "Burek", "Adam", "11113333333", "3333");
             rachunekBankowy1 += osoba3;
 
-            Console.WriteLine(rachunekBankowy1);
+            Console.WriteLine(rachunekBankowy1);  
 
 
         }
