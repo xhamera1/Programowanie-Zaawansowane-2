@@ -1,0 +1,14 @@
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.AssemblyInfoInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.AssemblyInfo.cs
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.csproj.CoreCompileInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat4\bin\Debug\net7.0\temat4.exe
+C:\Users\chame\Desktop\sem4\PZ2\temat4\bin\Debug\net7.0\temat4.deps.json
+C:\Users\chame\Desktop\sem4\PZ2\temat4\bin\Debug\net7.0\temat4.runtimeconfig.json
+C:\Users\chame\Desktop\sem4\PZ2\temat4\bin\Debug\net7.0\temat4.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat4\bin\Debug\net7.0\temat4.pdb
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\refint\temat4.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.pdb
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\temat4.genruntimeconfig.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat4\obj\Debug\net7.0\ref\temat4.dll
