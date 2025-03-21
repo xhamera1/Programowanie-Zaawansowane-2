@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace Lab03
 {
@@ -7,6 +6,7 @@ namespace Lab03
     {
         public static void Main(string[] args)
         {
+            // ZADANIE 1
             JsonTweetHandler jsonTweetHandler = new JsonTweetHandler("favorite-tweets.jsonl");
             List<Tweet>? tweets1 = jsonTweetHandler.GetListOfTweets();
 
@@ -20,6 +20,7 @@ namespace Lab03
                 Console.WriteLine(tweets1?[i]);
             }
 
+            // ZADANIE 2
             string filenameXml = "tweetsFromListXML.xml";
             jsonTweetHandler.ConvertListTweetsToXml(tweets1, filenameXml);
 
@@ -44,6 +45,9 @@ namespace Lab03
             // {
             //     Console.WriteLine(tweets1?[i].UserName);
             // }
+            
+            // ZADANIE 3 po username
+            
             SortedList<string, Tweet> sortedListByUsername = GetSortedListOfTweetsByUsername(tweets1);
 
             int x = 0;
@@ -69,6 +73,8 @@ namespace Lab03
             //     Console.WriteLine(tweets1?[i].CreatedAt);
             // }
             
+            // ZADANIE 3 po createdat
+            
             SortedList<DateTime, Tweet> sortedListByCreatedAt = GetSortedListOfTweetsByCreatedAt(tweets1);
 
             x = 0;
@@ -84,6 +90,8 @@ namespace Lab03
             Console.WriteLine("----------------- Najnowszy i najstarszy tweet: : ---------------------------");
             Console.WriteLine("");
             
+            // ZADANIE 4
+            
             Console.WriteLine($"Najstarszy tweet: {sortedListByCreatedAt.GetValueAtIndex(0)}");
 
             Console.WriteLine("");
@@ -95,6 +103,7 @@ namespace Lab03
             Console.WriteLine("----------------- Slownik indeksowany po username : ---------------------------");
             Console.WriteLine("");
 
+            // ZADANIE 5
 
             x = 0;
             Dictionary<string, List<Tweet>> tweetsDictionary = GetTweetsDictionary(sortedListByUsername);
@@ -113,6 +122,8 @@ namespace Lab03
             Console.WriteLine("");
             Console.WriteLine("----------------- Slownik czestosci wystepowania slow : ---------------------------");
             Console.WriteLine("");
+            
+            // ZADANIE 6
 
 
             Dictionary<string, int> wordsDictFreq = GetWordFrequencies(tweets1);
@@ -129,6 +140,8 @@ namespace Lab03
             Console.WriteLine("----------------- 10 najczestszych slow o dlugosci co najmniej 5 : ---------------------------");
             Console.WriteLine("");
 
+            // ZADANIE 7
+            
             var dictSortedPairLength5 = wordsDictFreq.Where(pair => pair.Key.Length >= 5)
                 .OrderByDescending(pair => pair.Value);
 
@@ -143,6 +156,8 @@ namespace Lab03
             Console.WriteLine("");
             Console.WriteLine("----------------- IDF dla wszystkich slow ---------------------------");
             Console.WriteLine("");
+            
+            // ZADANIE 8 
 
             Dictionary<string, double> dictionaryIDF = GetDictionaryIDF(tweets1);
 
@@ -271,7 +286,7 @@ namespace Lab03
 
             Dictionary<string, int> dictFreq = new Dictionary<string, int>();
 
-            int n = tweets.Count;
+            int n = tweets!.Count;
             
             foreach (Tweet tweet in tweets)
             {
