@@ -1,0 +1,14 @@
+C:\Users\chame\Desktop\sem4\PZ2\temat5\bin\Debug\net7.0\temat5.exe
+C:\Users\chame\Desktop\sem4\PZ2\temat5\bin\Debug\net7.0\temat5.deps.json
+C:\Users\chame\Desktop\sem4\PZ2\temat5\bin\Debug\net7.0\temat5.runtimeconfig.json
+C:\Users\chame\Desktop\sem4\PZ2\temat5\bin\Debug\net7.0\temat5.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat5\bin\Debug\net7.0\temat5.pdb
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.AssemblyInfoInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.AssemblyInfo.cs
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.csproj.CoreCompileInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\refint\temat5.dll
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.pdb
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\temat5.genruntimeconfig.cache
+C:\Users\chame\Desktop\sem4\PZ2\temat5\obj\Debug\net7.0\ref\temat5.dll
