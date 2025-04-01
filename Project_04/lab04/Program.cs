@@ -24,6 +24,10 @@ namespace Lab04
             List<Employee> employeeList = dataBaseHandlerEmployee.GetListOfObjects(employeeFilePath, x => new Employee(x[0], x[1], x[2], x[3], x[4], x[5]
                 , x[6], x[7], x[8], x[9], x[10], x[11], x[12], x[13], x[14], x[15], x[16], x[17]));
 
+			
+			Console.WriteLine(regionsList.Count);
+
+			
             
             // regions: 
             int x = 0;
@@ -130,7 +134,7 @@ namespace Lab04
                 select new
                 {
                     RegionDescription = regionGroup.Key,
-                    EmployeeLastnames = regionGroup.Select(emp => emp.Lastname).ToList()
+                    EmployeeLastnames = regionGroup.Select(emp => emp.Lastname).Distinct().ToList()
                 };
 
             foreach (var region in regionsEmployees)
@@ -144,8 +148,27 @@ namespace Lab04
 			}
 
 			// ZADANIE 5
-            Console.WriteLine();
+			Console.WriteLine();
             Console.WriteLine("########################### ZADANIE 5 ##########################");
+            Console.WriteLine();
+			
+			foreach (var region in regionsEmployees)
+			{
+    			Console.WriteLine($"Region: {region.RegionDescription}");
+    			Console.WriteLine(region.EmployeeLastnames.Count);
+			}
+			
+			
+
+
+
+
+
+
+
+			// ZADANIE 6
+            Console.WriteLine();
+            Console.WriteLine("########################### ZADANIE 6 ##########################");
             Console.WriteLine();
 
             DataBaseHandler<Order> dataBaseHandlerOrder = new DataBaseHandler<Order>();
