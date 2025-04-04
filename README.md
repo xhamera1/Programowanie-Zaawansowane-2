@@ -31,11 +31,4 @@ This lab aims to familiarize students with Language Integrated Query (LINQ) for 
 
 ## Lab 05: Concurrent Programming and Synchronization (Thread)
 
-This lab introduces the concepts of concurrent programming and process synchronization using the `Thread` class in C#. **The main focus was on understanding how to create and manage threads, and how to synchronize access to shared resources.** 
-
-The lab included four key exercises:
-
-1. **Producer-Consumer Problem**: Implementation of a multi-threaded producer-consumer model where n producer threads generate data and m consumer threads consume data, with thread-safe data sharing and comprehensive tracking of consumed items.
-2. **Directory Monitoring**: Development of a real-time directory monitor that detects and reports file additions and deletions, utilizing separate threads for monitoring and user input handling.
-3. **Asynchronous File Search**: Creation of a multi-threaded application that searches recursively through directories for files containing a specified substring, with search logic in a worker thread and result reporting handled by the main thread.
-4. **Thread Coordination**: Implementation of a program that launches multiple threads, confirms their execution has begun, and coordinates their orderly shutdown, demonstrating proper thread lifecycle management.The lab included four key exercises: **Producer-Consumer Problem, Directory Monitoring, Asynchronous File Search, Thread Coordination**:
+This lab introduces the concepts of concurrent programming and process synchronization using the `Thread` class in C#. **The main focus was on understanding how to create and manage threads, and how to synchronize access to shared resources.**   The lab included four key exercises: **Producer-Consumer Problem, Directory Monitoring, Asynchronous File Search, Thread Coordination.**
