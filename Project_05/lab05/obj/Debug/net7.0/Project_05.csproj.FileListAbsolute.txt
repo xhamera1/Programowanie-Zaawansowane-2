@@ -1,0 +1,14 @@
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\bin\Debug\net7.0\Project_05.exe
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\bin\Debug\net7.0\Project_05.deps.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\bin\Debug\net7.0\Project_05.runtimeconfig.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\bin\Debug\net7.0\Project_05.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\bin\Debug\net7.0\Project_05.pdb
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.AssemblyInfoInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.AssemblyInfo.cs
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.csproj.CoreCompileInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\refint\Project_05.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.pdb
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\Project_05.genruntimeconfig.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_05\obj\Debug\net7.0\ref\Project_05.dll
