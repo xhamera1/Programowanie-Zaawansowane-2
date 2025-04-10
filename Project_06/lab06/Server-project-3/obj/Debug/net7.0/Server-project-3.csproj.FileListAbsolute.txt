@@ -1,0 +1,15 @@
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.AssemblyInfoInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.AssemblyInfo.cs
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.csproj.CoreCompileInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.sourcelink.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\bin\Debug\net7.0\Server-project-3.exe
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\bin\Debug\net7.0\Server-project-3.deps.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\bin\Debug\net7.0\Server-project-3.runtimeconfig.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\bin\Debug\net7.0\Server-project-3.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\bin\Debug\net7.0\Server-project-3.pdb
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\refint\Server-project-3.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.pdb
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\Server-project-3.genruntimeconfig.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-3\obj\Debug\net7.0\ref\Server-project-3.dll

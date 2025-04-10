@@ -1,0 +1,15 @@
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\bin\Debug\net7.0\Server-project-2.exe
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\bin\Debug\net7.0\Server-project-2.deps.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\bin\Debug\net7.0\Server-project-2.runtimeconfig.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\bin\Debug\net7.0\Server-project-2.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\bin\Debug\net7.0\Server-project-2.pdb
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.AssemblyInfoInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.AssemblyInfo.cs
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.csproj.CoreCompileInputs.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.sourcelink.json
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\refint\Server-project-2.dll
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.pdb
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\Server-project-2.genruntimeconfig.cache
+C:\Users\chame\Desktop\sem4\PZ2\Project_06\lab06\Server-project-2\obj\Debug\net7.0\ref\Server-project-2.dll
