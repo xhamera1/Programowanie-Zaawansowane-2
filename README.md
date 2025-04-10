@@ -36,4 +36,4 @@ This lab introduces the concepts of concurrent programming and process synchroni
 
 ## Lab 06: Network Programming with TCP/IP Sockets
 
-This lab introduces network programming concepts, specifically focusing on client-server communication using TCP/IP sockets provided by the **System.Net.Sockets** namespace in C#. **The primary objectives included implementing fundamental TCP client-server communication, managing variable-length messages via a size-prefix protocol, and applying these concepts to create a basic remote directory navigation tool.**
+This lab introduces network programming concepts, specifically focusing on client-server communication using TCP/IP sockets. **The primary objectives included implementing fundamental TCP client-server communication, managing variable-length messages via a size-prefix protocol, and applying these concepts to create a basic remote directory navigation tool.**
