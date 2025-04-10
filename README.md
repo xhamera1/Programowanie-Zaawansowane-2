@@ -1,4 +1,4 @@
-# C# Console Applications Labs
+# C# Dotnet AGH course
 
 ## Table of Contents
 
