@@ -1,0 +1,2 @@
+﻿Tekst do policzenia hashu
+Test 123

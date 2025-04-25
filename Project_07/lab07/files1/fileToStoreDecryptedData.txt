@@ -1,0 +1,2 @@
+Dane do zaszyfrowania test
+test 1
