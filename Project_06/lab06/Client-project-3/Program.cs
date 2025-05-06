@@ -20,7 +20,7 @@ public class ProgramClient3
 
         socket.Connect(localEndPoint);
 
-        while (running)
+        while (running) 
         {
             string? message = Console.ReadLine();
             byte[] byteMessage = Encoding.UTF8.GetBytes(message!);
@@ -41,7 +41,7 @@ public class ProgramClient3
                     return; 
                 }
                 totalBytesReadForSize += bytesReadNow;
-            }
+            } 
             int len = BitConverter.ToInt32(lengthBuffer, 0);
             byte[] lenBuffer = new byte[len];
             int totalReceived = 0;
