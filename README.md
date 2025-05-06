@@ -9,6 +9,8 @@
 5. [Lab 04: LINQ](#lab-04-linq)
 6. [Lab 05: Concurrent Programming and Synchronization (Thread)](#lab-05-concurrent-programming-and-synchronization-thread)
 7. [Lab 06: Network Programming with TCP/IP Sockets](#lab-06-network-programming-with-tcpip-sockets)
+8. [Lab 07: Podstawowe funkcje kryptograficzne](#lab-07-podstawowe-funkcje-kryptograficzne)
+9. [Lab 08: SQLite](#lab-08-sqlite)
 
 ## Lab 00: First C# .NET Framework Core 7.0 Console Applications
 
@@ -37,3 +39,11 @@ This lab introduces the concepts of concurrent programming and process synchroni
 ## Lab 06: Network Programming with TCP/IP Sockets
 
 This lab introduces network programming concepts, specifically focusing on client-server communication using TCP/IP sockets. **The primary objectives included implementing fundamental TCP client-server communication, managing variable-length messages via a size-prefix protocol, and applying these concepts to create a basic remote directory navigation tool.**
+
+## Lab 07: Podstawowe funkcje kryptograficzne
+
+This lab introduces basic cryptographic functions in C#. **The primary goal was to implement console applications for various cryptographic operations, including RSA and AES encryption, hash calculation (SHA256, SHA512, MD5), and RSA digital signatures, all with robust error handling.** Exercises covered RSA key management, file encryption/decryption, hash computation/verification, and digital signing/verification.
+
+## Lab 08: SQLite
+
+This lab focuses on SQLite database interaction in C#. **The main objective was to develop a program to load data from a CSV file into an SQLite table, automatically creating the table structure based on CSV content, and then displaying the data.** Tasks included CSV parsing, data type inference, dynamic table creation, and data population/querying.
