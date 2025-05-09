@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>Moj widok Razor</p>
+<p>Imie to : @ViewData["Name"]</p>
+<p>Liczenie ile lat:</p>
+<p>
+    @for(int i = 1; i<=(int)ViewData["Age"]!; i++) 
+    {
+        <p>@i</p>
+    }
+</p>

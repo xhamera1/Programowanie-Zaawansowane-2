@@ -1,0 +1,14 @@
+@page
+@using MvcPracownicy.Pages
+@model FormModel
+
+@ViewData["sentence"]
+<form method="get">
+    <input id="mojepole" name="mojepole" class="form-control" />
+    <input type="submit" value="klik1!" class="btn btn-primary" />
+</form>
+
+<h2>XXXCześć! To wiadomość wygenerowana przez model strony</h2>
+<p>
+    @Model.Message
+</p>

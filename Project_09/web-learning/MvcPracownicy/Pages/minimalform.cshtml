@@ -1,0 +1,11 @@
+@page
+@using MvcPracownicy.Pages
+@model MinimalForm
+
+<form method="post"> 
+    @Html.AntiForgeryToken()
+    <input type="text" id="txtmojtekst" name="mojtekst"/> 
+    <input type="submit" value="Submit" />
+    
+    @Model.mojtekst 
+</form>

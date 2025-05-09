@@ -1,0 +1,67 @@
+@model MyApp.Models.DataViewModel
+@{
+    ViewData["Title"] = "Manage Data";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+<h2>Add New Data Entry</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="success-message">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="error-message">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-controller="Data" asp-action="Index" method="post">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="error-message"></div>
+
+    <div>
+        <label asp-for="NewDataText"></label>
+        <input asp-for="NewDataText" />
+        <span asp-validation-for="NewDataText" class="validation-error"></span>
+    </div>
+
+    <div>
+        <button type="submit">Add Data</button>
+    </div>
+</form>
+
+<hr />
+
+<h2>Existing Data Entries</h2>
+
+@if (Model.Entries != null && Model.Entries.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Text Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entry in Model.Entries)
+            {
+                <tr>
+                    <td>@entry.Id</td>
+                    <td>@entry.TextData</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No data entries found.</p>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

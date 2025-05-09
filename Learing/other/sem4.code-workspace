@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../repos/some_shit"
+		},
+		{
+			"path": "../../../../SpringBoot"
+		},
+		{
+			"path": "../../../../LeetCode"
+		},
+		{
+			"path": "../../../../MyProjects/heart-failure-mono"
+		},
+		{
+			"path": "../../../../heineken_cv"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "heineken_cv"
+	}
+}

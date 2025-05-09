@@ -1,0 +1,57 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    var userId = HttpContextAccessor.HttpContext?.Session.GetString("UserId");
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My app</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-left">
+                    <a asp-controller="Home" asp-action="Index">My app</a>
+                </div>
+                <div class="nav-right">
+                    @if (string.IsNullOrEmpty(userId))
+                    {
+                        <a asp-controller="Account" asp-action="Login">Login</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Home" asp-action="Index">Home page</a>
+                        <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <a asp-controller="Data" asp-action="Index">Data</a>
+                        <span>Welcome, @userId</span>
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                            <button type="submit">Logout</button>
+                        </form>
+                    }
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main">
+             @* Wrap content in a section for consistent styling *@
+            <div class="content-section">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; @DateTime.Now.Year - My MVC Application
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
