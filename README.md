@@ -11,7 +11,8 @@
 7. [Lab 06: Network Programming with TCP/IP Sockets](#lab-06-network-programming-with-tcpip-sockets)
 8. [Lab 07: Basic cryptographic functions](#lab-07-basic-cryptographic-functions)
 9. [Lab 08: SQLite](#lab-08-sqlite)
-
+10. [Lab 09: Basics of ASP.NET Core MVC - Controllers and Views](#lab-09-basics-of-aspnet-core-mvc-controllers-and-views)
+    
 ## Lab 00: First C# .NET Framework Core 7.0 Console Applications
 
 This lab introduces basic input/output operations in C# and the practice of implementing simple algorithms using the .NET Framework Core 7.0. **The main focus was on getting familiar with console input/output and implementing basic algorithms.**
@@ -47,3 +48,7 @@ This lab introduces basic cryptographic functions in C#. **The primary goal was 
 ## Lab 08: SQLite
 
 This lab focuses on SQLite database interaction in C#. **The main objective was to develop a program to load data from a CSV file into an SQLite table, automatically creating the table structure based on CSV content, and then displaying the data.** Tasks included CSV parsing, data type inference, dynamic table creation, and data population/querying.
+
+## Lab 09: Basics of ASP.NET Core MVC - Controllers and Views
+
+This lab introduces the fundamentals of building web applications using ASP.NET Core MVC, focusing on controllers and views. It covers user authentication through session management and interaction with an SQLite database. **The primary goal was to understand controllers, views, session management for user authentication, and interaction with an SQLite database, including storing hashed passwords using MD5**. Key tasks involved creating login/logout functionality, managing user sessions, restricting access based on login status, and performing data operations with SQLite.
